@@ -3,6 +3,8 @@ package test;
 import example.MyMath;
 import example.Person;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 //        box.Box box1 = new box.Box(10,10,10);
@@ -55,20 +57,49 @@ public class Main {
 //        System.out.println(MyMath.length(10));
 //        System.out.println(MyMath.area(20));
 //        System.out.println(MyMath.sum(2,4,2,4));
-        MyArrayList employees = getEmployees();
-        employees.add("James");
-        employees.remove("Emma");
-        for (int i = 0; i < employees.getSize(); i++) {
-            System.out.println(employees.get(i));
-        }
-    }
-    private static MyArrayList getEmployees() {
-        MyArrayList employees = new MyArrayList();
-        employees.add("John");
-        employees.add("Olivia");
-        employees.add("Emma");
-        employees.add("Max");
-        employees.add("Nick");
-        return employees;
+//        MyArrayList employees = getEmployees();
+//        employees.add("James");
+//        employees.remove("Emma");
+//        for (int i = 0; i < employees.getSize(); i++) {
+//            System.out.println(employees.get(i));
+//        }
+//    }
+//    private static MyArrayList getEmployees() {
+//        MyArrayList employees = new MyArrayList();
+//        employees.add("John");
+//        employees.add("Olivia");
+//        employees.add("Emma");
+//        employees.add("Max");
+//        employees.add("Nick");
+//        return employees;
+
+//        ArrayList<Integer> numbers = new ArrayList<>();
+//        for (int i = 0; i < 5; i++) {
+//            numbers.add(i);
+//        }
+//        ArrayList<String> names = getEmployees();
+//        ArrayList<String> result = new ArrayList<>();
+//        for (int i = 0; i < names.size(); i++) {
+//            result.add(numbers.get(i) + " - " + names.get(i));
+//        }
+//        for (String s : result) {
+//            System.out.println(s);
+//        }
+//    }
+//    private static ArrayList<String> getEmployees() {
+//        ArrayList<String> employees = new ArrayList<>();
+//        employees.add("John");
+//        employees.add("Olivia");
+//        employees.add("Emma");
+//        employees.add("Max");
+//        employees.add("Nick");
+//        return employees;
+
+//        String s = "This is John. He is 27 years old.";
+//        String name = s.substring(8, 12);
+//        String ageString = s.substring(20, 22);
+//        int age = Integer.parseInt(ageString);
+//        examples.Person person = new examples.Person(name, age);
+//        System.out.println(person.getName() + " " + person.getAge());
     }
 }

@@ -1,12 +1,12 @@
-package test;
+// package test;
 
-import example.MyMath;
-import example.Person;
+// import example.MyMath;
+// import example.Person;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
-public class Main {
-    public static void main(String[] args) {
+// public class Main {
+//    public static void main(String[] args) {
 //        box.Box box1 = new box.Box(10,10,10);
 //        box.Box box2 = new box.Box(20,20,20);
 //        box1.showVolume();
@@ -102,19 +102,19 @@ public class Main {
 //        examples.Person person = new examples.Person(name, age);
 //        System.out.println(person.getName() + " " + person.getAge());
        }
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //        Cat cat = new Cat();
 //        Lion lion = new Lion();
 //        cat.eat();
 //        lion.eat();
 //    }
-        ColoredRect rect = new ColoredRect(10, 20); // Создание объекта
-        Triangle triangle = new Triangle(10, 10, 10);
-        rect.showPerimeter(); // Этот метод унаследован от класса Shape и выводит периметр
-        triangle.showPerimeter();
+//        ColoredRect rect = new ColoredRect(10, 20); // Создание объекта
+//        Triangle triangle = new Triangle(10, 10, 10);
+//        rect.showPerimeter(); // Этот метод унаследован от класса Shape и выводит периметр
+//        triangle.showPerimeter();
     }
 }
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //        Cat cat = new Cat(); // Создание объектов различных животных
 //        Dog dog = new Dog();
 //        Bird bird = new Bird();
@@ -163,14 +163,14 @@ public class Main {
 //            }
 //        });
 
-        Client client = new Client();
-        client.makeOrder(new Waiter() {
-            @Override
-            public void bringOrder(String dish) {
-                System.out.println("Я вам принес: " + dish);
+//        Client client = new Client();
+//        client.makeOrder(new Waiter() {
+//            @Override
+//            public void bringOrder(String dish) {
+//                System.out.println("Я вам принес: " + dish);
             }
         }, "Пицца");
-        public static void main(String[] args) {
+//        public static void main(String[] args) {
 //            int a = 0;
 //            try { // Начало блока try для обработки исключений
 //                int b = 7 / a;
@@ -181,13 +181,27 @@ public class Main {
 //                System.out.println("Поймано исключение" + e.getClass());
 //            }
 //            System.out.println("Hello");
-
-            int[] numbers = new int[10]; // Объявление и инициализация массива целых чисел размером 10 элементов
-            try { // Блок try-catch для обработки возможных исключений
-                System.out.println(numbers[10]);
-            } catch (Exception e) {
-                System.out.println("Вы вышли за пределы массива");
-            }
+//
+//            int[] numbers = new int[10]; // Объявление и инициализация массива целых чисел размером 10 элементов
+//            try { // Блок try-catch для обработки возможных исключений
+//                System.out.println(numbers[10]);
+//            } catch (Exception e) {
+//                System.out.println("Вы вышли за пределы массива");
+//            }
         }
+////import java.util.Random;
+//
+//public class main31 {
+//    public static void main(String[] args) {
+////        Person person = new Person("John", 17);
+////        System.out.println(person);
+//          Random random = new Random();
+//          for (int i = 0; i < 100; i++) {
+//              int a = random.nextInt(5, 11);
+//              System.out.print(a + " ");
+//          }
+//    }
+//}
     }
 }
+

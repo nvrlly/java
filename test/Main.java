@@ -191,7 +191,7 @@
         }
 ////import java.util.Random;
 //
-//public class main31 {
+//public class Main {
 //    public static void main(String[] args) {
 ////        Person person = new Person("John", 17);
 ////        System.out.println(person);
@@ -207,5 +207,6 @@
 //}
     }
 }
+
 
 

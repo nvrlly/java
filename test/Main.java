@@ -197,6 +197,9 @@
 ////        System.out.println(person);
 //          Random random = new Random();
 //          for (int i = 0; i < 100; i++) {
+//          int number = random.nextInt(1, 7);
+//              String result = String.format("Ваше число %s", number);
+//              System.out.println(result);
 //              int a = random.nextInt(5, 11);
 //              System.out.print(a + " ");
 //          }
@@ -204,4 +207,5 @@
 //}
     }
 }
+
 

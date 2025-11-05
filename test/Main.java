@@ -101,5 +101,93 @@ public class Main {
 //        int age = Integer.parseInt(ageString);
 //        examples.Person person = new examples.Person(name, age);
 //        System.out.println(person.getName() + " " + person.getAge());
+       }
+    public static void main(String[] args) {
+//        Cat cat = new Cat();
+//        Lion lion = new Lion();
+//        cat.eat();
+//        lion.eat();
+//    }
+        ColoredRect rect = new ColoredRect(10, 20); // Создание объекта
+        Triangle triangle = new Triangle(10, 10, 10);
+        rect.showPerimeter(); // Этот метод унаследован от класса Shape и выводит периметр
+        triangle.showPerimeter();
+    }
+}
+    public static void main(String[] args) {
+//        Cat cat = new Cat(); // Создание объектов различных животных
+//        Dog dog = new Dog();
+//        Bird bird = new Bird();
+//        Fish fish = new Fish();
+//        ArrayList<AbleToRun> animals = new ArrayList<>(); // Создание списка объектов, реализующих интерфейс AbleToRun
+//        animals.add(cat);
+//        animals.add(dog);
+//        animals.add(bird);
+//        for (AbleToRun animal : animals) { // Вызов метода run() для всех объектов в списке
+//            animal.run();
+//        }
+//        AbleToFly ableToFly = new Bird(); // Создание ссылки на Bird через интерфейс AbleToFly
+//        ableToFly.fly();
+//        ArrayList<Animal> animals = new ArrayList<>(); // Создание списка всех животных
+//        animals.add(cat);
+//        animals.add(dog);
+//        animals.add(bird);
+//        animals.add(fish);
+//        for (Animal animal : animals) { // Вызов метода eat() для всех животных
+//            animal.eat();
+//        }
+//        Director director = new Director(); // Создание объектов работников
+//        Programmer programmer = new Programmer();
+//        Chef chef = new Chef();
+//
+//        ArrayList<Worker> workers = new ArrayList<>(); // Создание списка работников
+//        workers.add(director);
+//        workers.add(programmer);
+//        workers.add(chef);
+//        for (Worker worker : workers) { // Вызов метода work() для всех работников
+//            worker.work();
+//        }
+//
+//        ArrayList<Driver> drivers = new ArrayList<>(); // Создание списка водителей
+//        drivers.add(programmer);
+//        drivers.add(chef);
+//        for (Driver driver : drivers) {
+//            driver.drive(); // Вызов метода drive() для всех водителей
+//        }
+//
+//        Director director = new Director(); // Создание объекта директора
+//        director.force(new Worker() { // Вызов метода force с анонимным классом
+//            @Override
+//            public void work() {
+//                System.out.println("Работаю");
+//            }
+//        });
+
+        Client client = new Client();
+        client.makeOrder(new Waiter() {
+            @Override
+            public void bringOrder(String dish) {
+                System.out.println("Я вам принес: " + dish);
+            }
+        }, "Пицца");
+        public static void main(String[] args) {
+//            int a = 0;
+//            try { // Начало блока try для обработки исключений
+//                int b = 7 / a;
+//                int c = Integer.parseInt("asffsadfd"); // Эта строка не выполнится, так как исключение уже произошло выше
+//            } catch (ArithmeticException e1) {
+//                System.out.println("Делить на ноль нельзя");
+//            } catch (Exception e) { // Универсальный обработчик для всех остальных исключений
+//                System.out.println("Поймано исключение" + e.getClass());
+//            }
+//            System.out.println("Hello");
+
+            int[] numbers = new int[10]; // Объявление и инициализация массива целых чисел размером 10 элементов
+            try { // Блок try-catch для обработки возможных исключений
+                System.out.println(numbers[10]);
+            } catch (Exception e) {
+                System.out.println("Вы вышли за пределы массива");
+            }
+        }
     }
 }

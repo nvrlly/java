@@ -16,5 +16,11 @@ public class Person {
 
     public int getAge() {
         return age;
+
+        
+    @Override
+    public String toString() {
+        return String.format("Name: %s Age: %s", name, age);
     }
 }
+
